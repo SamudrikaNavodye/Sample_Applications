@@ -1,0 +1,39 @@
+server:
+  port: 9090
+
+#spring:
+#  security:
+#    oauth2:
+#      client:
+#        registration:
+#          auth0:
+#            client-id: oUqVbdgUnvRkkGsNkLv7kEBwWPqf9NH5
+#            client-secret: 4W0EwVqEiHOVj-sTPQ_bGFD2V612qd1Xk9LnsH18fJS6zYJmu7I7Ps_ekdMB4cWn
+#            scope: openid profile email
+#            redirect-uri: http://localhost:9090/login/oauth2/code/auth0
+#            authorization-grant-type: authorization_code
+#            client-authentication-method: post
+#            authorization-uri: https://dev-r6n638sjjjytg1q3.us.auth0.com/authorize
+#            token-uri: https://dev-r6n638sjjjytg1q3.us.auth0.com/oauth/token
+#            user-info-uri: https://dev-r6n638sjjjytg1q3.us.auth0.com/userinfo
+#            user-name-attribute: sub
+#        provider:
+#          auth0:
+#            issuer-uri: https://dev-r6n638sjjjytg1q3.us.auth0.com/
+
+spring:
+  security:
+    oauth2:
+      client:
+        registration:
+          auth0:
+            client-id: oUqVbdgUnvRkkGsNkLv7kEBwWPqf9NH5
+            client-secret: 4W0EwVqEiHOVj-sTPQ_bGFD2V612qd1Xk9LnsH18fJS6zYJmu7I7Ps_ekdMB4cWn
+            scope: openid,profile,email
+            authorization-grant-type: authorization_code
+            redirect-uri: "http://localhost:9090/login/oauth2/code/auth0"
+            client-name: Auth0
+        provider:
+          auth0:
+            issuer-uri: https://dev-r6n638sjjjytg1q3.us.auth0.com/
+

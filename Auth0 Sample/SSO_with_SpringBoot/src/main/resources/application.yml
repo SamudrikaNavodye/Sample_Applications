@@ -1,0 +1,17 @@
+spring:
+  security:
+    oauth2:
+      client:
+        registration:
+          auth0:
+            client-id: 2AOoQ3K1F4HCdL2neu5Ozq58JOVNMnrS
+            client-secret: qbL1UZ9vv1Ra7qA3SUva1RKKpDBIYFqW2fj2sCtt7IOAfK9wSJF-b4wSRNnQ-zPM
+            scope:
+              - openid
+              - profile
+              - email
+            redirect-uri: http://localhost:8080/login/oauth2/code/auth0
+            client-name: Auth0
+        provider:
+          auth0:
+            issuer-uri: https://dev-r6n638sjjjytg1q3.us.auth0.com.auth0.com/

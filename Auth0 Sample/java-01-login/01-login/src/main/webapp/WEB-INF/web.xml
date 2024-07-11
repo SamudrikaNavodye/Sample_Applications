@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns="http://xmlns.jcp.org/xml/ns/javaee"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd"
+         version="3.1"
+         metadata-complete="false">
+    <context-param>
+        <param-name>com.auth0.domain</param-name>
+        <param-value>dev-r6n638sjjjytg1q3.us.auth0.com</param-value>
+    </context-param>
+    <context-param>
+        <param-name>com.auth0.clientId</param-name>
+        <param-value>dNYbg9Furz6drIR7HQPHzfefRusPIora</param-value>
+    </context-param>
+    <context-param>
+        <param-name>com.auth0.clientSecret</param-name>
+        <param-value>P2n1jkvAoOjFjyGcyTv7cihn1_r1WztWO-Sml-cYco0RDbs4eTGkHfAj8VekswvB</param-value>
+    </context-param>
+</web-app>

@@ -1,0 +1,8 @@
+server:
+  port: 3002
+
+
+thingsboard:
+  url: http://localhost:8085
+  username: tenant@thingsboard.org
+  password: tenant
